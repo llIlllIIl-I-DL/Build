@@ -36,10 +36,7 @@
 
 ---
 
-## 🧪 실행 방법
-
-1. Unity Hub에서 해당 버전으로 프로젝트 열기
-   Itch.io에서 플레이하기  
-2. [https://kierwl.itch.io/ribbet]
-   깃허브페이지에서 플레이하기
-3. [https://llillliil-i-dl.github.io/Build/]
+## 🧪 실행 방법   
+   Itch.io에서 플레이하기  [https://kierwl.itch.io/ribbet]
+   
+   깃허브페이지에서 플레이하기 [https://llillliil-i-dl.github.io/Build/]
