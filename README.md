@@ -37,6 +37,6 @@
 ---
 
 ## 🧪 실행 방법   
-   Itch.io에서 플레이하기  [https://kierwl.itch.io/ribbet]
+   Itch.io에서 플레이하기  [https://kierwl.itch.io/rivet]
    
    깃허브페이지에서 플레이하기 [https://llillliil-i-dl.github.io/Build/]
