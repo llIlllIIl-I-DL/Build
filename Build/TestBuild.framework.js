@@ -1232,7 +1232,7 @@ var TOTAL_STACK = 5242880;
 
 if (Module["TOTAL_STACK"]) assert(TOTAL_STACK === Module["TOTAL_STACK"], "the stack size can no longer be determined at runtime");
 
-var INITIAL_MEMORY = Module["INITIAL_MEMORY"] || 536870912;
+var INITIAL_MEMORY = Module["INITIAL_MEMORY"] || 1073741824;
 
 legacyModuleProp("INITIAL_MEMORY", "INITIAL_MEMORY");
 
@@ -1242,7 +1242,7 @@ assert(typeof Int32Array != "undefined" && typeof Float64Array !== "undefined" &
 
 assert(!Module["wasmMemory"], "Use of `wasmMemory` detected.  Use -s IMPORTED_MEMORY to define wasmMemory externally");
 
-assert(INITIAL_MEMORY == 536870912, "Detected runtime INITIAL_MEMORY setting.  Use -s IMPORTED_MEMORY to define wasmMemory dynamically");
+assert(INITIAL_MEMORY == 1073741824, "Detected runtime INITIAL_MEMORY setting.  Use -s IMPORTED_MEMORY to define wasmMemory dynamically");
 
 var wasmTable;
 
@@ -1589,29 +1589,29 @@ var tempDouble;
 var tempI64;
 
 var ASM_CONSTS = {
- 5388800: function() {
+ 5388864: function() {
   return Module.webglContextAttributes.premultipliedAlpha;
  },
- 5388861: function() {
+ 5388925: function() {
   return Module.webglContextAttributes.preserveDrawingBuffer;
  },
- 5388925: function() {
+ 5388989: function() {
   return Module.webglContextAttributes.powerPreference;
  },
- 5388983: function() {
+ 5389047: function() {
   Module["emscripten_get_now_backup"] = performance.now;
  },
- 5389038: function($0) {
+ 5389102: function($0) {
   performance.now = function() {
    return $0;
   };
  },
- 5389086: function($0) {
+ 5389150: function($0) {
   performance.now = function() {
    return $0;
   };
  },
- 5389134: function() {
+ 5389198: function() {
   performance.now = Module["emscripten_get_now_backup"];
  }
 };
